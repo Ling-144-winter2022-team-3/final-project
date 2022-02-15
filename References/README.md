@@ -30,3 +30,18 @@ https://era.ed.ac.uk/bitstream/handle/1842/3626/Dissertation.pdf?sequence=1&isAl
 
 
 This dissertation scrutinizes English-Chinese code-switching data from blogs by young Macao people in search of patterns and motives for code-switching. Pages 29-31 recount the data collection from Xanga blogs back in 2004; Blogger age, gender, occupation, etc., profiles appear on page 31; a table of part of speech of switched words is split between pages 36 and 37; the proposal that the participants opt for English monosyllables lies on page 54; and a list of professional words used despite being multisyllabic is mentioned on page 68. 
+
+  
+ A comparison of Verb and Noun Retrieval in Mandarin-English Bilinguals and English-Speaking Monolinguals
+  
+In the experiment reported by this article, 21 English speakers and 21 Mandarin-English bilinguals each needed to recall nouns in response to sketches of objects and verbs in response to sketches of actions. They were allotted no more than 3 seconds per response. The Mandarin-English bilinguals’ instant word retrieval accuracy in Mandarin and in English were both lower than the English monolingual’s word retrieval accuracy in English, though the Mandarin-English bilinguals scored higher for verbs than nouns in both languages. Thus, bilinguals have more immediate access to verbs than nouns.
+
+
+  Language Files Twelfth Edition
+
+Sections 8.5.2 and 12.5.2 address code-switching. The most relevant insight from 8.5.2 is that Mario embeds American products and school experience-related terms in his mixed Spanish-English speech. Consider the categories of English words that are deliberately selected in Mandarin-English code-switching utterances. Section 12.5.2  is only useful for distinguishing code-switching and diglossia.
+
+
+Code Switching in Chinese Malaysian Community Film
+  
+Code Switching in Chinese Malaysian Community in the Film The Journey (2014) presents another perspective of English-Mandarin code-switching in southeast Asia. However, since the English-Mandarin mixed speech is interspersed with Malay as well in a subset of the ten movie extracts in this article, it may only complicate our project. The list of ten motives for code-switching on page 87 is nonetheless an employable reference for our project, and the bottom of page 87 offers a concise plot summary for The Journey(2014).
