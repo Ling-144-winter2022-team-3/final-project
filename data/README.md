@@ -1,1 +1,1 @@
-This is the ReadMe file for the "data" folder.
+We uploaded the entirety SEAME-dev-set to this data folder. SEAME-dev-set consists of two test sets (one Singaporean English-dominated and one Mandarin-dominated) from the SEAME Mandarin-English code-switching corupus. "dataset1.txt" is our Singaporean English-dominated test set while "dataset2.txt" is out Mandarin-dominated test set.
