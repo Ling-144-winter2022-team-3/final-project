@@ -1,8 +1,4 @@
-### This file will bears the APA citations and succinnt 2-3 sentence overviews of six reputable sources pertaining to Mandarin-English code switching. The references are arranged roughly in order of decreasing relevance, not alphabetically.
-
-
-
-
+# This file will bears the APA citations and succinnt 2-3 sentence overviews of six reputable sources pertaining to Mandarin-English code switching. The references are arranged roughly in order of decreasing relevance, not alphabetically.
 
 Lyu, D.-C., Tan, T.P., Chng, E.S., Li, H. Mandarin–Code-Switching Speech Corpus in South-East 
   Asia: SEAME. Language Resources and Evaluation. 49(3). 
