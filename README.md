@@ -10,3 +10,11 @@ final-project file overview:
   The folder called "references" contains at least 6 papers/journal articles/book chapters/reputable sources that are relevant to our project, with a readme file that gives a name and overview for each of these references.
   
   The file called "outline" contains a single-spaced, 2-page document outlining our project and the work we've done so far, with an introduction, some background on our research, and our methods of research.
+
+
+--updates as we work--
+Sunday:
+  -We met and decided on which project idea to go for.
+  -We set up the final project file and wrote out all of our tasks
+Tuesday:
+  -Colin finished writing up the readme file for the "references" folder.
