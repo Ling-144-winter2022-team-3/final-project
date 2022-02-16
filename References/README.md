@@ -1,9 +1,9 @@
 # This file will bears the APA citations and succinnt 2-3 sentence overviews of six reputable sources pertaining to Mandarin-English code switching. The references are arranged roughly in order of decreasing relevance, not alphabetically.
 
-Lyu, D.-C., Tan, T.P., Chng, E.S., Li, H. Mandarin–Code-Switching Speech Corpus in South-East 
-  Asia: SEAME. Language Resources and Evaluation. 49(3). 
-  https://doi.org/10.1007/s10579-015-9303-x 
-  <https://www.isca-speech.org/archive/pdfs/interspeech_2010/lyu10_interspeech.pdf>
+- Lyu, D.-C., Tan, T.P., Chng, E.S., Li, H. Mandarin–Code-Switching Speech Corpus in South-East 
+    Asia: SEAME. Language Resources and Evaluation. 49(3). 
+    https://doi.org/10.1007/s10579-015-9303-x 
+    <https://www.isca-speech.org/archive/pdfs/interspeech_2010/lyu10_interspeech.pdf>
 
 ### The article from Interspeech 2010 also pertains to the SEAME code-switching corpus. You can skip to section 4.2 (Intra-Sentential Code Switching) for the main data. Figure 4 captures the length distribution of utterances, including both the English and Mandarin parts, Figure 5 displays the length distribution of continuous English  segments between the switches, and Figure 6 illustrates the length distribution of Mandarin segments between switches. For instance, “build up my strength and strengths first lah competency first” gets counted as a continuous English segment of length ten in the length distribution.
 
