@@ -37,15 +37,15 @@
     ```
 
 - Sections 8.5.2 and 12.5.2 address code-switching. The most relevant insight from 8.5.2 is that Mario embeds American products and school experience-related terms in his mixed Spanish-English speech. Consider the categories of English words that are deliberately selected in Mandarin-English code-switching utterances. Section 12.5.2  is only useful for distinguishing code-switching and diglossia.
-```
-Department of Linguistics Ohio State University. (1977) Language files: Materials for an 
-    introduction to language and linguistics. (12th ed.). The Ohio State University Press.
-    Ismadi, Wan Modh. (2021) Code Switching in the Malaysian Chinese Community in the Film 
-```
+    ```
+    Department of Linguistics Ohio State University. (1977) Language files: Materials for an 
+        introduction to language and linguistics. (12th ed.). The Ohio State University Press.
+        Ismadi, Wan Modh. (2021) Code Switching in the Malaysian Chinese Community in the Film 
+    ```
 
 - Switching in Chinese Malaysian Community in the Film The Journey (2014) presents another perspective of English-Mandarin code-switching in southeast Asia. However, since the English-Mandarin mixed speech is interspersed with Malay as well in a subset of the ten movie extracts in this article, it may only complicate our project. The list of ten motives for code-switching on page 87 is nonetheless an employable reference for our project, and the bottom of page 87 offers a concise plot summary for The Journey(2014).
-```
-Ismadi, Wan Modh. (2021) Code Switching in the Malaysian Chinese Community in the Film 
-    The Journey (2014). 10.6007/IJARBSS/v11-i1/8412
-    <https://www.researchgate.net/publication/351420856_Code-switching_in_Malaysian_Chinese_Community_in_The_Film_the_Journey_2014>
-```
+    ```
+    Ismadi, Wan Modh. (2021) Code Switching in the Malaysian Chinese Community in the Film 
+        The Journey (2014). 10.6007/IJARBSS/v11-i1/8412
+        <https://www.researchgate.net/publication/351420856_Code-switching_in_Malaysian_Chinese_Community_in_The_Film_the_Journey_2014>
+    ```
