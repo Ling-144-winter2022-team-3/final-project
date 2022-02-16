@@ -1,5 +1,5 @@
 # References
-### This file will bears the APA citations and succinnt 2-3 sentence overviews of six reputable sources pertaining to Mandarin-English code switching. The references are arranged roughly in order of decreasing relevance, not alphabetically.
+### This file will bear the APA citations and succinct 2-3 sentence overviews of six reputable sources pertaining to Mandarin-English code switching. The references are arranged roughly in order of decreasing relevance, not alphabetically.
 
 - [The article](https://www.isca-speech.org/archive/pdfs/interspeech_2010/lyu10_interspeech.pdf) from Interspeech 2010 also pertains to the SEAME code-switching corpus. You can skip to section 4.2 (Intra-Sentential Code Switching) for the main data. Figure 4 captures the length distribution of utterances, including both the English and Mandarin parts, Figure 5 displays the length distribution of continuous English  segments between the switches, and Figure 6 illustrates the length distribution of Mandarin segments between switches. For instance, “build up my strength and strengths first lah competency first” gets counted as a continuous English segment of length ten in the length distribution.
     - hum 对 其 实 呢 我 有 想 过 就 是 我 想 在 这 边 就 是 嗯 build up my strength and strengths first lah competency first 就 是 可 能 <v-noise> 会 在 这 边
