@@ -10,7 +10,7 @@
       https://doi.org/10.1007/s10579-015-9303-x 
       https://www.isca-speech.org/archive/pdfs/interspeech_2010/lyu10_interspeech.pdf
     ```
-- 2. [Linguistic Consortium Data](https://catalog.ldc.upenn.edu/LDC2015S04) is a University of Pennsylvania-sponsored agency that disseminates language resources, including the SEAME code-switching speech corpus. Linguistic Consortium Data authored the linked article, which provides key figures of age, gender, place of residence, etc., of the code-switching speakers. According to this article, the code-switching data was obtained from responses to casual interview questions. The transcripts document conversations with 156  participants, which amount to 192 hours of recording.
+- 2.[Linguistic Consortium Data](https://catalog.ldc.upenn.edu/LDC2015S04) is a University of Pennsylvania-sponsored agency that disseminates language resources, including the SEAME code-switching speech corpus. Linguistic Consortium Data authored the linked article, which provides key figures of age, gender, place of residence, etc., of the code-switching speakers. According to this article, the code-switching data was obtained from responses to casual interview questions. The transcripts document conversations with 156  participants, which amount to 192 hours of recording.
     ```
     Nanyang Technological University, Universiti Sains Malaysia. Mandarin-English Code-Switching 
       in South-East Asia. https://doi.org/10.35111/5gyy-zq54 
