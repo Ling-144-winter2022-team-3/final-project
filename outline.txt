@@ -1,1 +1,29 @@
-This file will contain the outline of our project, 2 pages, single spaced.
+
+Outline of Mandarin-English Code-Switching Final Project
+
+Title: 
+
+Introduction
+Why is the phenomenon of English-Mandarin code-switching interesting/important?
+Attests to the ability of speakers to communicate in diverse languages rather than suggesting lack of competence through a need to supplement one language with another (Code-Switching in Chinese Malaysian Communities in the Film The Journey (2014) Modh et al)
+Reveals the language in which native speakers have internalized concepts (Blogs by Young Macao People  )
+May indicate which of the non-native words are more rapidly accessed or retrieved by bilingual people and consequently get embedded/inserted more frequently into mixed-language speech (A comparison of adjective and noun retrieval)
+Two relevant groups of Mandarin-English bilingual people
+			Native English speakers 
+			Native Mandarin speakers
+Countless factors contribute to retrieval time:
+Syllable structure and syllable count
+Do Mandarin speakers insert monosyllabic words more frequently into their mixed Mandarin-English?
+Out of the multisyllabic English words scattered in English speech, what proportion of them conform with the Mandarin syllable template inventory?
+Part of Speech (a.k.a., lexical category)
+Research Question:Are some lexical categories of non-native, switched words more frequently recollected than others in spontaneous fluent mixed-language speech?
+This project will concentrate on analyzing the part of speech distribution of the switched, non-native words.
+Hypothesis: Non-native verbs are more frequently recalled in spontaneous, fluent mixed-language speech than non-native nouns because the retrieval time was shorter for non-native verbs than non-native nouns in the Picture Naming Experiment.
+
+Background
+
+Picture Naming Experiment
+In the article titled “A Comparison of Noun and Verb Retrieval”, 21 Mandarin-English bilinguals native in only Mandarin and 21 English monolinguals recalled nouns in response to sketches of objects and recalled verbs in response to sketches of actions. 
+Each noun or verb picture naming task was rated 0 for inaccurate and 1 for accurate, plus the retrieval time for each task was also logged.
+Mandarin-English bilinguals scored higher for verbs in terms of retrieval rate but higher for nouns in terms of accuracy.
+Retrieval rate is a greater indicator of whether a word gets uttered in spontaneous, fluent conversation, so again, we expect the non-native verb count to surpass the non-native noun count in a code-switching corpus.
