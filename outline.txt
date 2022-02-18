@@ -1,7 +1,7 @@
 
 Outline of Mandarin-English Code-Switching Final Project
 
-Title: 
+Title: Do Verbs of Retrieval Rate or Nouns of High Retrieval Accuracy Account for Most Non-Native Words in Code Switching
 
 Introduction
 Why is the phenomenon of English-Mandarin code-switching interesting/important?
@@ -18,7 +18,7 @@ Out of the multisyllabic English words scattered in English speech, what proport
 Part of Speech (a.k.a., lexical category)
 Research Question:Are some lexical categories of non-native, switched words more frequently recollected than others in spontaneous fluent mixed-language speech?
 This project will concentrate on analyzing the part of speech distribution of the switched, non-native words.
-Hypothesis: Non-native verbs are more frequently recalled in spontaneous, fluent mixed-language speech than non-native nouns because the retrieval time was shorter for non-native verbs than non-native nouns in the Picture Naming Experiment.
+Hypothesis: Considering that retrieval rate was more rapid for non-native verbs and that retrieval accuracy was more rapid for non-native nouns, a higher prevalence of non-native verbs suggests retrieval rate more significantly facilitates use in code-switching. Oppositely, a higher prevalence of non-native nouns hints that retrieval accuracy more significantly facilitates use in code-switching.
 
 Background
 
@@ -26,7 +26,7 @@ Picture Naming Experiment
 In the article titled “A Comparison of Noun and Verb Retrieval”, 21 Mandarin-English bilinguals native in only Mandarin and 21 English monolinguals recalled nouns in response to sketches of objects and recalled verbs in response to sketches of actions. 
 Each noun or verb picture naming task was rated 0 for inaccurate and 1 for accurate, plus the retrieval time for each task was also logged.
 Mandarin-English bilinguals scored higher for verbs in terms of retrieval rate but higher for nouns in terms of accuracy.
-Retrieval rate is a greater indicator of whether a word gets uttered in spontaneous, fluent conversation, so again, we expect the non-native verb count to surpass the non-native noun count in a code-switching corpus.
+
 
 Methods
 SEAME is a Mandarin-English code-switching corpus replete with 192 hours of interview question-facilitated casual conversations. SEAME-dev-set contains two repackaged SEAME-derived test sets of mixed-language speech, one Mandarin-dominated and one Singaporean English-dominated. Keep in mind that SEAME only reflects only code-switching in Mandarin diasporan communities of Singapore and Malaysia. Any unexpected discrepancies between part of speech distribution in SEAME-dev-set and the noun and word retrieval experiment could result from different populations surveyed or different circumstances. The word retrieval in SEAME transpired in conversation unlike how word retrieval in the noun and word retrieval experiment occurred in response to pictures.
