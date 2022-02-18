@@ -51,6 +51,10 @@ for item in mandEngSpeech_tokens
 		-> add to noun counter
 	count the number of verbs in item
 		->add to verb counter
+		
+print(noun counter)
+print(verb counter)
+
 initialize new noun counter
 initialize new verb counter
 for item in mandEngSpeech_tokens
@@ -58,3 +62,6 @@ for item in mandEngSpeech_tokens
 		-> add to new noun counter
 	count the number of verbs in item
 		->add to new verb counter
+		
+print(new noun counter)
+print(new verb counter)
