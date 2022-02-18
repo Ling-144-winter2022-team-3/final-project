@@ -18,7 +18,8 @@ Out of the multisyllabic English words scattered in English speech, what proport
 Part of Speech (a.k.a., lexical category)
 Research Question:Are some lexical categories of non-native, switched words more frequently recollected than others in spontaneous fluent mixed-language speech?
 This project will concentrate on analyzing the part of speech distribution of the switched, non-native words.
-Hypothesis: Considering that retrieval rate was more rapid for non-native verbs and that retrieval accuracy was more rapid for non-native nouns, a higher prevalence of non-native verbs suggests retrieval rate more significantly facilitates use in code-switching. Oppositely, a higher prevalence of non-native nouns hints that retrieval accuracy more significantly facilitates use in code-switching.
+Hypothesis: Considering that retrieval rate was more rapid for non-native verbs and that retrieval accuracy was more rapid for non-native nouns, a higher prevalence of non-native verbs suggests retrieval rate more significantly facilitates use in code-switching.
+Oppositely, a higher prevalence of non-native nouns hints that retrieval accuracy more significantly facilitates use in code-switching.
 
 Background
 
