@@ -14,20 +14,30 @@ We will append each tokenized string of mandEngSpeech to mandEngSpeech_tokens an
 
 initialize noun counter
 initialize verb counter
+
 for item in mandEngSpeech_tokens
+
 	count the number of nouns in item 
+	
 		-> add to noun counter
+		
 	count the number of verbs in item
+	
 		->add to verb counter
 		
 print(noun counter)
+
 print(verb counter)
 
 initialize new noun counter
 initialize new verb counter
+
 for item in mandEngSpeech_tokens
+
 	count the number of nouns in item 
+	
 		-> add to new noun counter
+		
 	count the number of verbs in item
 		->add to new verb counter
 		
