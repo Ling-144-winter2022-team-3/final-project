@@ -22,5 +22,5 @@
     - Colin finished writing up the readme file for the "references" folder.
     - Colin created a draft outline
   - Friday:
-    - Max updated the outline to be more comprehension and better formatted
+    - Max updated the outline to be more comprehensive and better formatted
     - Max updated the readme.md file to be better formatted
