@@ -1,6 +1,10 @@
 # final-project
 - Final project repository for our team!!! WOO!!!!!
 
+# Introduction
+- This project will analyze two datasets of Mandarin-English code-switching datasets and collect some data from the dataset to answer questions as described in [outline.md](https://github.com/Ling-144-winter2022-team-3/final-project/blob/main/outline.md)
+- All of the data manipulation steps and schema as well as algorithms and pseudocode of the project are described in [outline.md](https://github.com/Ling-144-winter2022-team-3/final-project/blob/main/outline.md)
+
 # Team Members
 - Sebastian Bissiri
 - Max Xie
