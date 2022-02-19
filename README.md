@@ -1,20 +1,30 @@
 # final-project
-Final project repository for our team!!! WOO!!!!!
+- Final project repository for our team!!! WOO!!!!!
 
-Team Members: Sebastian Bissiri, Max Xie, Colin Hirchberg, Yuma Yamada
+# Introduction
+- This project will analyze two datasets of Mandarin-English code-switching datasets and collect some data from the dataset to answer questions as described in [outline.md](outline.md)
+- All of the data manipulation steps and schema as well as algorithms and pseudocode of the project are described in [outline.md](outline.md)
 
-final-project file overview:
+# Team Members
+- Sebastian Bissiri
+- Max Xie
+- Colin Hirchberg
+- Yuma Yamada
 
-  The folder called "data" contains all of the data we should collect, along with a readme file that outlines the data collection and curation process.
-  
-  The folder called "references" contains at least 6 papers/journal articles/book chapters/reputable sources that are relevant to our project, with a readme file that gives a name and overview for each of these references.
-  
-  The file called "outline" contains a single-spaced, 2-page document outlining our project and the work we've done so far, with an introduction, some background on our research, and our methods of research.
+# Final-project Files Overview:
+- Data: folders that contains all of the data we should collect, along with a readme file that outlines the data collection and curation process.  
+- References: The folder that contains at least 6 papers/journal articles/book chapters/reputable sources that are relevant to our project, with a readme file that gives a name and overview for each of these references.
+- outline.md: The outline of this project in markdown format, contains an introduction of the project, all of the purposed questions and hypothesis, as well as a pseudocode of the algorithm of this project.
+- outline.pdf: A pdf file of our outline exported from the outline.md file above
 
-
---updates as we work--
-Sunday:
-  -We met and decided on which project idea to go for.
-  -We set up the final project file and wrote out all of our tasks
-Tuesday:
-  -Colin finished writing up the readme file for the "references" folder.
+# Progress
+- __Here is an updates of our project__
+  - Sunday:
+    - [x] We met and decided on which project idea to go for.
+    - [x] We set up the final project file and wrote out all of our tasks
+  - Tuesday:
+    - [x] Colin finished writing up the readme file for the "references" folder.
+    - [x] Colin created a draft outline
+  - Friday:
+    - [x] Max updated the outline to be more comprehensive and better formatted
+    - [x] Max updated the readme.md file to be better formatted
