@@ -20,11 +20,11 @@
 # Progress
 - __Here is an updates of our project__
   - Sunday:
-    - We met and decided on which project idea to go for.
-    - We set up the final project file and wrote out all of our tasks
+    - [x] We met and decided on which project idea to go for.
+    - [x] We set up the final project file and wrote out all of our tasks
   - Tuesday:
-    - Colin finished writing up the readme file for the "references" folder.
-    - Colin created a draft outline
+    - [x] Colin finished writing up the readme file for the "references" folder.
+    - [x] Colin created a draft outline
   - Friday:
-    - Max updated the outline to be more comprehensive and better formatted
-    - Max updated the readme.md file to be better formatted
+    - [x] Max updated the outline to be more comprehensive and better formatted
+    - [x] Max updated the readme.md file to be better formatted
