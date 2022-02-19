@@ -39,12 +39,12 @@ This project will concentrate on analyzing the part of speech distribution of th
 - Here is the algorithm of the project
 - This algorithm might be heavily modified later during the project based on needs.
 - This project will have 5 difference parts of analysis
-	- 0. Read in datasets
-	- 1. Dependencies import
-	- 2. Sentence tokenize
-	- 3. Syllable counts
-	- 4. Part of speech tagging
-	- 5. Sentence parse tree generation
+	0. Read in datasets
+	1. Dependencies import
+	2. Sentence tokenize
+	3. Syllable counts
+	4. Part of speech tagging
+	5. Sentence parse tree generation
 	```python
 	# Input files
 	Read in the two datasets from file and store them in two lists
