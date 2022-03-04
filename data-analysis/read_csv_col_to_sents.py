@@ -1,5 +1,5 @@
 #This script reads the column under the header "sentence" from dataset1.csv and the column titled "sentence" from dataset2.csv into two lists and concatenates thee lists together.
-
+#This script also filters out the "v-noise" from each sentence string element.
 
 #Step 1: Install pandas in the bash shell, not into the python interpreter prior to importing the * module from pandas.
 #Type the following statement in a commandline to install it: pip install pandas.
