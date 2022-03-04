@@ -36,4 +36,6 @@ MandEng_mixed_sentences = dataset1_sentences + dataset2_sentences
 
 print(f'The mixed Mandarin-English sentences from dataset1.txt and dataset2.txt include the following: {MandEng_mixed_sentences}')
 
+#Remove "v-noise" from each sentence string element of the list MandEng_mixed_sentences via a filer-by-regex technique.
+
 
