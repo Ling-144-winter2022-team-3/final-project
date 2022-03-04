@@ -44,7 +44,7 @@ The Analytical Tasks
 ##Preprocessing Step
 
 Read the column titled “sentence” in dataset1.txt as well as in dataset2.txt into a single list_of _sentences.
-Filter out <v-noise> from the sentence string elements of the list
+Filter out "v-noise" from the sentence string elements of the list
 	
 ##Code-Switching Boundary Detection , Word Tokenization, and Part of Speech Tagging
 	
