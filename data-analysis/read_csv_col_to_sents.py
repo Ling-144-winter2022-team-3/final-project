@@ -30,10 +30,10 @@ dataframe_2.tail()
 dataset1_sentences = dataframe_1['sentence'].to_list()
 dataset2_sentences = dataframe_2['sentence'].to_list()
 
-#Step 4: Concatenate the lists together, and print the list data in the form of a descriptive print statement.
+#Step 4: Concatenate the lists together, and output the list data in the form of a descriptive print statement.
 
 MandEng_mixed_sentences = dataset1_sentences + dataset2_sentences
 
-print(MandEng_mixed_sentences)
+print(f'The mixed Mandarin-English sentences from dataset1.txt and dataset2.txt include the following: {MandEng_mixed_sentences}')
 
 
