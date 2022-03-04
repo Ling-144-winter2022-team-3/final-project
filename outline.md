@@ -46,7 +46,7 @@ Read the column titled “sentence” in dataset1.txt as well as in dataset2.txt
 
 Code-Switching Boundary Detection , Word Tokenization, and Part of Speech Tagging
 Initialize a list titled nlp_processed_sentences to contain all the language-compartmentalized, word tokenized, part of speech-tagged sentences. 
-For each item in the list_of_sentences, identify all the boundaries or switching points from English to Mandarin and vice-versa. (Note that we are interested in the part of speech of the word following each switching point.) Then compartmentalize each sentence into all-Mandarin word sequences and all-English word sequences by splitting it at language boundaries before you finally tag the part of speech of every all-Mandarin sequence and tag the part of speech of every all-English sequence.
+For each index i in range(len(list_of_sentences)), identify all the boundaries or switching points from English to Mandarin and vice-versa. (Note that we are interested in the part of speech of the word following each switching point.) Then compartmentalize each sentence into all-Mandarin word sequences and all-English word sequences by splitting it at language boundaries before you finally tag the part of speech of every all-Mandarin sequence and tag the part of speech of every all-English sequence.
 
 i = 18
 
@@ -66,7 +66,7 @@ processed_sentence = [[(那, DET), (时 候, NN)], [(we, PRON)]]
 
 processed_sentence to the list nlp_processed_sentences.
 
-i = 101
+i = 100
 
 101: '诶 就 是 就 是 old 就 是 那 种 middle age 那 种 middle age 的 啊'
 
