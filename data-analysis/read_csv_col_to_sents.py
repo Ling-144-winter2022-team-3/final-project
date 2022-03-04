@@ -38,4 +38,15 @@ print(f'The mixed Mandarin-English sentences from dataset1.txt and dataset2.txt 
 
 #Remove "v-noise" from each sentence string element of the list MandEng_mixed_sentences via a filer-by-regex technique.
 
+import re
+
+for i in range(len(MandEng_mixed_sentences))):
+ #reference string: string element of MandEng_mixed_sentences (i.e., MandEng_mixed_sentences[i])
+ MandEng_mixed_sentences_1 = re.sub(r'<.*>', " ", MandEng_mixed_sentences[i])
+
+print(MandEng_mixed_sentences_1)
+
+#In our Mandarin-English code-switching final project, we intend for an nlp machine learning model in spaCy to process each sentence string element of a list in anoter script. Since it is difficult to design a script to manipulate each string element of a list in a different script,
+#would it behoove us to write all the string elements to separate lines of an output.txt and instruct spaCy to read and manipulate each line of the output.txt?  
+
 
