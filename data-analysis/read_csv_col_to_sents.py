@@ -1,64 +1,71 @@
-#This script reads the column under the header "sentence" from dataset1.csv and the column titled "sentence" from dataset2.csv into two lists and concatenates thee lists together.
-#This script also filters out the "v-noise" from each sentence string element.
+# Preprocessing Step
 
-#Step 1: Install pandas in the bash shell, not into the python interpreter prior to importing the * module from pandas.
-#Type the following statement in a commandline to install it: pip install pandas.
+# - Read the column titled “sentence” in dataset1.csv as well as in dataset2.csv into a single list_of_sentences.
+# - Filter out "v-noise" from the sentence string elements of the list
+# - Split list_of_sentences into two different array, one contains only Chinese-major sentences, another contains only English-major sentences.
+# - Output both array as two seperate datasets titled dataset_eng_major.txt and dataset_ch_major.txt
 
 from pandas import *
-
+import re 
 
 #Step 2: read the two csv files into two dataframes by means of the read_csv function
-
-dataframe_1 = read_csv('~/final-project/data/dataset1.csv')
-dataframe_2 = read_csv('~/final-project/data/dataset2.csv')
+dataframe_1 = read_csv('../data/dataset1.csv')
+dataframe_2 = read_csv('../data/dataset2.csv')
  
 #We are reading csv files, not txt files, so we do not employ the open function above, but we can specify the file path in the read_csv function 
 #just as we would in the open function, according to the code snipped accessible via the link <https://www.codegrepper.com/code-examples/python/how+to+get+csv+file+path+in+python>.
-
-
-#Check the dataframe by printing the first five and last five entries.
-
-print(dataframe_1.head())
-print(dataframe_1.tail())
-
-print(dataframe_2.head())
-print(dataframe_2.tail())
-
-
 #Step 3: Convert the column data for "sentence" to list data. Note that dataset1_sentences and dataset2_sentences are of the list data type.
-
 dataset1_sentences = dataframe_1['sentence'].to_list()
 dataset2_sentences = dataframe_2['sentence'].to_list()
 
 #Step 4: Concatenate the lists together, and output the list data in the form of a descriptive print statement.
+list_of_sentences = dataset1_sentences + dataset2_sentences
 
-##Truncate the two lists to the first ten elements as a test. We are extractincting the entries from the "sentences" column that appear in rows 2 to 11 because row 1 features the column headers themselves.
+# Print the length of list_of_sentences in a f-string formatted text
+print(f"The length of list_of_sentences is {len(list_of_sentences)}")
 
-MandEng_mixed_sentences = dataset1_sentences[:10] + dataset2_sentences[:10]
+# Remove "v-noise" from each sentence string element of the list MandEng_mixed_sentences via a filer-by-regex technique.
+list_of_sentences_no_vnoice = []
 
-print(f'The mixed Mandarin-English sentences from dataset1.txt and dataset2.txt include the following: {MandEng_mixed_sentences}')
+for i in range(len(list_of_sentences)):
+  # reference string: string element of MandEng_mixed_sentences (i.e., MandEng_mixed_sentences[i])
+  MandEng_mixed_sentences_1 = re.sub(r'<v-noise>', " ", list_of_sentences[i])
+  list_of_sentences_no_vnoice.append(MandEng_mixed_sentences_1)
 
-#Remove "v-noise" from each sentence string element of the list MandEng_mixed_sentences via a filer-by-regex technique.
+# Print the length of list_of_sentences_no_vnoice in a f-string formatted text
+print(f"The length of list_of_sentences_no_vnoice is {len(list_of_sentences_no_vnoice)}")
 
-import re 
+# Verify if the entire dataset contains v-noise 
+for i in range(len(list_of_sentences_no_vnoice)):
+  if re.search(r'<v-noise>', list_of_sentences_no_vnoice[i]):
+    print(f"The sentence {list_of_sentences_no_vnoice[i]} contains <v-noise>")
 
-MandEng_mixed_sentences_New = []
+# Step 5: Split the list_of_sentences_no_vnoice into two different array, one contains only Chinese-major sentences, another contains only English-major sentences.
+# If the amount of English words reaches 50% of the total amount of words in the sentence, then the sentence is considered to be English-major.
+english_major = []
+chinese_major = []
 
-for i in range(len(MandEng_mixed_sentences)):
- #reference string: string element of MandEng_mixed_sentences (i.e., MandEng_mixed_sentences[i])
-  MandEng_mixed_sentences_1 = re.sub(r'<v-noise>', " ", MandEng_mixed_sentences[i])
-  MandEng_mixed_sentences_New.append(MandEng_mixed_sentences_1)
-
-
-print(f'The mixed Mandarin-English sentences from which <v-noise> is removed are itemized as follows: {MandEng_mixed_sentences_New}')
+for i in range(len(list_of_sentences_no_vnoice)):
+  # get all of the english words in this sentence
+  english_words = re.findall(r'[a-zA-Z]+', list_of_sentences_no_vnoice[i])
+  # get the amount of words in the current sentence
+  sentence_length = len(list_of_sentences_no_vnoice[i].split())
+  # If the amount of English words is more than 55% of the total amount of words in the sentence, then the sentence is considered to be English-major.
+  if len(english_words) / sentence_length >= 0.55:
+    english_major.append(list_of_sentences_no_vnoice[i])
+  else:
+    chinese_major.append(list_of_sentences_no_vnoice[i])
   
-  
+print(f"There are {len(english_major)} English-major sentences in the dataset.")
+print(f"There are {len(chinese_major)} Chinese-major sentences in the dataset.")
+print(f"Total up to now: {len(english_major) + len(chinese_major)} sentences in the dataset.")
 
-#In our Mandarin-English code-switching final project, we intend for nltk and an nlp machine learning model in spaCy to process each sentence string element of a list in anoter script. Since it is difficult to design a script to manipulate each string element of a list in a different script,
-#would it behoove us to write all the string elements to separate lines of an output.txt and instruct spaCy to read and manipulate each line of the output.txt?  
+# Write english_major out to dataset_eng_major.txt
+with open('dataset_eng_major.txt', 'w') as f:
+  for i in range(len(english_major)):
+    f.write(english_major[i] + '\n')
 
-with open('sample_output.txt','w+',encoding = 'utf-8') as file:
-  for i in range(len(MandEng_mixed_sentences_New)):
-    file.write(MandEng_mixed_sentences_New[i]+'\n')
-
-  file.close()
+# Write chinese_major out to dataset_ch_major.txt
+with open('dataset_ch_major.txt', 'w') as f:
+  for i in range(len(chinese_major)):
+    f.write(chinese_major[i] + '\n')
