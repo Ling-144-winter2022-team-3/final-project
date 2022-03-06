@@ -136,8 +136,9 @@ Analyzing a single sentence, this function detects the code-switching points,   
   ###Insert a comma at each switching point, so initialize a list of indices of positions where commas will be inserted.
   comma_indices = []
   ##Recover the final-position index of a Mandarin word preceding the switching point.
-  
-  if len(Mand_Eng_switches) == 1:
+  if len(Mand_Eng_switches) == 0:
+    pass
+  elif len(Mand_Eng_switches) == 1:
     var1 = Mand_Eng_switches[0]
     m_1 = re.search(rf'{var1}',sentence)
     position_of_matched_sequence = m_1.span()
@@ -170,7 +171,9 @@ Analyzing a single sentence, this function detects the code-switching points,   
       sentence_new_comp = sentence[:pstn+1]
   #return comma_indices
   ##Recover the final-position index of an English word preceding the switching point.
-  if len(Eng_Mand_switches) == 1:
+  if len(Eng_Mand_switches) == O:
+    pass
+  elif len(Eng_Mand_switches) == 1:
     for item in Eng_Mand_switches:
       var3 = item
       m_b = re.search(r'[a-zA-Z]+\s',item)
@@ -254,5 +257,7 @@ Analyzing a single sentence, this function detects the code-switching points,   
 
 print(compartmentalization_and_word_tokenization_2('你 要 那 个 chocolate 你 刚 才 吃 的 那 个 chocolate 你'))
 print(compartmentalization_and_word_tokenization_2('我 是 从 camp 那 边 拿 来 的 自 从 mark 那 时 拿 来 了 之 后'))
+
+
 
 
