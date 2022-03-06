@@ -39,24 +39,24 @@ The Algorithms and Pseudocode expound on the rest of the data curation.
 - Here is the algorithm of the project
 - This algorithm might be heavily modified later during the project based on needs.
 
-The Analytical Tasks
+## The Analytical Tasks
 
-##Preprocessing Step
+### Preprocessing Step
 
-Read the column titled “sentence” in dataset1.txt as well as in dataset2.txt into a single list_of _sentences.
-Filter out "v-noise" from the sentence string elements of the list
+- Read the column titled “sentence” in dataset1.txt as well as in dataset2.txt into a single list_of _sentences.
+- Filter out "v-noise" from the sentence string elements of the list
 	
-##Code-Switching Boundary Detection , Word Tokenization, and Part of Speech Tagging
-	
-Initialize a list titled nlp_processed_sentences to contain all the language-compartmentalized, word tokenized, part of speech-tagged sentences. 
-For each index i in range(len(list_of_sentences)), identify all the boundaries or switching points from English to Mandarin and vice-versa. (Note that we are interested in the part of speech of the word following each switching point.) Then compartmentalize each sentence into all-Mandarin word sequences and all-English word sequences by splitting it at language boundaries before you finally tag the part of speech of every all-Mandarin sequence and tag the part of speech of every all-English sequence.
-
+### Code-Switching Boundary Detection , Word Tokenization, and Part of Speech Tagging
+ 	
+- Initialize a list titled nlp_processed_sentences to contain all the language-compartmentalized, word tokenized, part of speech-tagged sentences. 
+- For each index i in range(len(list_of_sentences)), identify all the boundaries or switching points from English to Mandarin and vice-versa. (Note that we are interested in the part of speech of the word following each switching point.) Then compartmentalize each sentence into all-Mandarin word sequences and all-English word sequences by splitting it at language boundaries before you finally tag the part of speech of every all-Mandarin sequence and tag the part of speech of every all-English sequence.
+```
 	i = 18
 
 	line 19: ‘那 时 候 we’
 
 	Insert commas at switching points by regex
-
+ 
 	line 19: ‘那 时 候, we’
 
 	Split the string at commas into a list of monolingual sequences by specifying “,” as the delimiter, as in  string.split(“,”).
@@ -74,15 +74,15 @@ For each index i in range(len(list_of_sentences)), identify all the boundaries o
 	line 101: '诶 就 是 就 是 old 就 是 那 种 middle age 那 种 middle age 的 啊'
 
 	list_of_monolingual_sequences = [‘那 时 候’, ‘we’]
-
-Construct a processed sentence (i.e., a word-tokenized and POS-tagged sentence) from list_of_monolingual_sequences with list comprehension and spaCy/nltk.
-
+```
+### Construct a processed sentence (i.e., a word-tokenized and POS-tagged sentence) from list_of_monolingual_sequences with list comprehension and spaCy/nltk.
+``` 
 	processed_sentence = [ [('诶’, X), (‘就’, ADV) (‘是’, PART), (‘就 是’, ADV)], [(‘old’, JJ)], [(‘就’, PRON), (‘是’, VERB), (‘那’, DET), (‘种’, NOUN)], 	[(‘middle’, JJ),  (‘age’, NN)], [(‘那’, DET), (‘种’, NOUN)], [(‘middle’, JJ),  (‘age’, NN)], [(‘的’,PART), (啊,PART)] ]
 
 	Append processed_sentence to the list titled nlp_processed_sentences.
-
-##Computation of the Number of switched English Nouns, Adjectives, and Verbs
-
+```
+### Computation of the Number of switched English Nouns, Adjectives, and Verbs
+```
 	Initialize two lists: tagged_switched_Mandarin_words and tagged_switched_English_words
 
 	Search though each processed sentence list for all the transitions from English to Mandarin, such as (‘就 是’, ADV) to (‘old’, JJ), and all the transitions from English to Mandarin, such as (‘种’, NOUN) and (‘middle’, JJ), by analyzing all pairs of adjacent elements like processed_sentence[i] and processed sentence[i+1].
@@ -90,11 +90,11 @@ Construct a processed sentence (i.e., a word-tokenized and POS-tagged sentence) 
 	If the transition from processed_sentence[i] to sentence[i+1] switches from English to Mandarin, retrieve the tagged Mandarin word and append it to a list 	   tagged_switched_Mandarin_words.
 
 	Tally up the number of adjectives, nouns, and verbs in  tagged_switched_Mandarin_words
-	
-##Computation of the Number of switched Mandarin Nouns, Adjectives, and Verbs
-
+```	
+### Computation of the Number of switched Mandarin Nouns, Adjectives, and Verbs
+```
 	If the transition from processed_sentence[i] to sentence[i+1] switches from English to Mandarin, retrieve the tagged English word and append it to a list 	  tagged_switched_English_words.
 
 	Tally up the number of adjectives, nouns, and verbs in tagged_switched_English_words
-
-##Create a bar chart or other diagram in excel, colab, etc that can visually illustrate the number of switched words that are adjectives, nouns, and verbs and the number of switched words that are adjectives, nouns, and verbs.
+```
+### Create a bar chart or other diagram in excel, colab, etc that can visually illustrate the number of switched words that are adjectives, nouns, and verbs and the number of switched words that are adjectives, nouns, and verbs.
